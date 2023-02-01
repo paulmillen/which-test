@@ -1,2 +1,2 @@
-export * from './global-components'
-export * from './views'
+export * from "./global-components";
+export * from "./views";

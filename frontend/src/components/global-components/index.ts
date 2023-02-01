@@ -1,1 +1,1 @@
-export * from './PageLoadingSpinner'
+export * from "./PageLoadingSpinner";
