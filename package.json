@@ -1,8 +1,7 @@
 {
   "name": "my-workspaces-powered-project",
   "workspaces": [
-    "frontend",
-    "backend"
+    "frontend"
   ],
   "engines": {
     "npm": ">=8.0.0",
@@ -10,7 +9,7 @@
   },
   "scripts": {
     "build": "npm run build --workspaces",
-    "start": "npm run start:prod --workspace=backend",
+    "start": "npm run start --workspace=frontend",
     "test": "npm run test --workspaces"
   }
 }

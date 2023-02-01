@@ -26,5 +26,6 @@
   "include": [
     "src/**/*",
     "vite.config.ts"
-  ]
+  ],
+  "types": ["@testing-library/jest-dom"]
 }
